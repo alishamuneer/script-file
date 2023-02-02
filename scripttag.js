@@ -3,7 +3,7 @@ console.log('this is me script tag!!!!!!!!')
 const form = $('.script-tag');
 form.prepend('<div>Script Tag div</div>').css({'background-color':'orange', 'text-align': 'center'})
 
-$('#submit').click(function()
+$('.btn').click(function()
 {
     $.ajax({
         url: 'https://f596-110-93-205-130.ap.ngrok.io/send',
